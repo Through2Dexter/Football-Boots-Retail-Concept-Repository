@@ -261,9 +261,10 @@ section{
 
   }
 }
-@media (max-width:990px){
+@media (max-width: 990px){
   #menu-icon{
     display: block;
+
   }
   .navlist{
     position:absolute;
