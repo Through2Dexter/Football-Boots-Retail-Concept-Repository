@@ -13,7 +13,7 @@ width: 200px;
 
 }
 .morespace {
-  height: 50px;
+  height:25px;
   color: grey;
   position: relative;
   z-index: 100000000000;
@@ -225,7 +225,7 @@ section{
  }
  .boot{
   text-align: center;
-max-height: 300px;
+  
  }
  .boot img{
   width: 500px;
