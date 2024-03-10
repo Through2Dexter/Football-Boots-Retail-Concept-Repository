@@ -203,10 +203,12 @@ section{
   .boot img{
     width: 100%;
     height: auto;
+
   }
   .hero-text h1{
     font-size: 255px;
     margin: 0 0 30px;
+    
     }
 }
 
@@ -217,13 +219,17 @@ section{
  }
  .hero-text{
   padding-top: 215px;
+  margin-bottom: -800px;
+  z-index: 1000;
  }
  .boot{
   text-align: center;
  }
  .boot img{
-  width: 800px;
+  width: 1000px;
   height: auto;
+  padding-left: 400px;
+  z-index: 0;
  }
  .hero{
   height: 100%;
