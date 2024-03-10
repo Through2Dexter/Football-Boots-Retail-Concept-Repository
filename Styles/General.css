@@ -218,7 +218,7 @@ section{
   transition: .2s;
  }
  .hero-text{
-  padding-top: 215px;
+  padding-top: 30px;
   margin-bottom: -800px;
   z-index: 1000;
  }
