@@ -8,6 +8,19 @@
   position: relative;
   
 }
+.nike-video {
+  width: 200px;
+ 
+
+}
+
+.video {
+  width: 720px;
+  position: relative;
+  height: 100%;
+}
+
+
 body{
   min-height:1200px;
 }
@@ -99,9 +112,122 @@ margin-top: -50px;
 }
 
 .video-container {
-width: 200px;
+width: 500px;
+
 }
 
 .video-file {
-  width: 700px;
+  width: 100%;
+ 
+}
+.videobox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 140px;
+  justify-content: space-between;
+ 
+}
+.spaceisneeded {
+  height: 60px;
+  background-color: rgb grey;
+  font-size: 300px;
+  color: grey;
+}
+
+@media (max-width: 1535px){
+  header{
+    padding: 15px 3%;
+    transition: .2s;
+  }
+  .icons{
+    padding: 0 3%;
+    transition: .2s;
+  }
+  .scroll-down{
+    right: 3%;
+    transition: .2s;
+  }
+}
+@media (max-width: 1460px){
+  section{
+
+    padding: 0 12%;
+    transition: .2s;
+  }
+}
+
+@media (max-width: 1195px){
+ section{
+  padding: 0 3%;
+  transition: .2s;
+  display: block;
+ }
+ .hero-text{
+  display: block;
+  z-index: 1000;
+ }
+ .boot{
+  text-align: center;
+  
+ }
+ .boot img{
+  width: 500px;
+  height: auto;
+  margin-top: -1000000px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+
+
+ }
+ .hero{
+  height: 100%;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  display: block;
+ }
+ .icons{
+  display: none;
+ }
+ .scroll-down{
+  display: none;
+ }
+}
+
+@media (max-width: 990px){
+  #menu-icon{
+    display: block;
+
+  }
+  .navlist{
+    position:absolute;
+    top: 100%;
+    right: 100%;
+    width: 300px;
+    height: 40vh;
+    background: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all .55s ease;
+  }
+  .navlist a{
+    margin-left: 0;
+    display: block;
+    margin: 7px 0; 
+  }
+  .navlist.open{
+    right: 0;
+  }
+  .a.ctaa {
+    display: block;
+  }
+}
+@media (max-width:300px){
+.boot img{
+  width: 100%;
+height: auto;
+position: rel
+}
 }
