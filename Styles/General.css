@@ -6,6 +6,10 @@
   list-style: none;
   text-decoration: none;
   position: relative;
+  
+}
+body{
+  min-height:1200px;
 }
 
 .imagelogo {
@@ -13,7 +17,7 @@ width: 200px;
 
 }
 .morespace {
-  height:25px;
+  height: 20px;
   color: grey;
   position: relative;
   z-index: 100000000000;
@@ -68,6 +72,10 @@ header{
 }
 .navlist a:hover {
   border-bottom: 2px solid white;
+}
+.watch-ad {
+  background-color: transparent;
+  border: none;
 }
 #menu-icon{
   color: white;  
@@ -191,6 +199,26 @@ section{
 .scroll-down i:hover{
   transform: translateY(-5px);
 }
+
+.nike-video {
+  width: 200px;
+ 
+
+}
+
+.video {
+  width: 720px;
+  position: relative;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1535px){
   header{
     padding: 15px 3%;
@@ -286,4 +314,4 @@ section{
 height: auto;
 position: rel
 }
-} 
+}

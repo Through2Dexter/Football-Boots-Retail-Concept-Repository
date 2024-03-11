@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  
+}
+body{
+  min-height:1200px;
+}
+
+.imagelogo {
+width: 200px;
+
+}
+.morespace {
+  height: 20px;
+  color: grey;
+  position: relative;
+  z-index: 100000000000;
+  display: block;
+
+
+}
+header{
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background: transparent;
+ margin-bottom: 1000px;
+}
+ body{
+  background: grey;
+}
+.logo {
+
+  font-size: 30px;
+  font-weight: 700;
+  color: white
+  
+}
+.boxup {
+  height: 100px;
+  color: grey;
+}
+.logobox {
+  width: 2000px;
+  display: flex;
+}
+.navlist {
+  display: flex;
+  margin-top: 00px;
+}
+
+.navlist a{
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px  solid transparent;
+  transition: all .55 ease;
+
+}
+.navlist a:hover {
+  border-bottom: 2px solid white;
+}
+.watch-ad {
+  background-color: transparent;
+  border: none;
+  
+}
+#menu-icon{
+  color: white;  
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer; 
+  display: none;
+} 
+.hero {
+width: 100%;
+height: 10px;
+min-height: 100vh;
+background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53% #133917 75.52%);
+position: relative;
+display: grid;
+grid-template-columns: repeat(2, 370px 1fr);
+align-items: center;
+gap: 2rem;
+margin-top: -50px;
+}
+
+.video-container {
+width: 200px;
+}
+
+.video-file {
+  width: 700px;
+}
